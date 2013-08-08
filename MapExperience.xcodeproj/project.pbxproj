@@ -18,6 +18,8 @@
 		A7B111E617B31E5500940256 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B111E517B31E5500940256 /* Default-568h@2x.png */; };
 		A7B111E917B31E5500940256 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7B111E717B31E5500940256 /* MainStoryboard.storyboard */; };
 		A7B111EC17B31E5500940256 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B111EB17B31E5500940256 /* ViewController.m */; };
+		A7B111F417B3206000940256 /* FullScreenMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B111F317B3206000940256 /* FullScreenMapViewController.m */; };
+		A7B111F717B3213100940256 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B111F517B3210600940256 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		A7B111E817B31E5500940256 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		A7B111EA17B31E5500940256 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A7B111EB17B31E5500940256 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A7B111F217B3206000940256 /* FullScreenMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullScreenMapViewController.h; sourceTree = "<group>"; };
+		A7B111F317B3206000940256 /* FullScreenMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullScreenMapViewController.m; sourceTree = "<group>"; };
+		A7B111F517B3210600940256 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7B111F717B3213100940256 /* MapKit.framework in Frameworks */,
 				A7B111D017B31E5500940256 /* UIKit.framework in Frameworks */,
 				A7B111D217B31E5500940256 /* Foundation.framework in Frameworks */,
 				A7B111D417B31E5500940256 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +79,7 @@
 		A7B111CE17B31E5500940256 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A7B111F517B3210600940256 /* MapKit.framework */,
 				A7B111CF17B31E5500940256 /* UIKit.framework */,
 				A7B111D117B31E5500940256 /* Foundation.framework */,
 				A7B111D317B31E5500940256 /* CoreGraphics.framework */,
@@ -86,6 +93,8 @@
 				A7B111DE17B31E5500940256 /* AppDelegate.h */,
 				A7B111DF17B31E5500940256 /* AppDelegate.m */,
 				A7B111E717B31E5500940256 /* MainStoryboard.storyboard */,
+				A7B111F217B3206000940256 /* FullScreenMapViewController.h */,
+				A7B111F317B3206000940256 /* FullScreenMapViewController.m */,
 				A7B111EA17B31E5500940256 /* ViewController.h */,
 				A7B111EB17B31E5500940256 /* ViewController.m */,
 				A7B111D617B31E5500940256 /* Supporting Files */,
@@ -176,6 +185,7 @@
 				A7B111DC17B31E5500940256 /* main.m in Sources */,
 				A7B111E017B31E5500940256 /* AppDelegate.m in Sources */,
 				A7B111EC17B31E5500940256 /* ViewController.m in Sources */,
+				A7B111F417B3206000940256 /* FullScreenMapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
