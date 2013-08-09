@@ -20,6 +20,8 @@
 		A7B111EC17B31E5500940256 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B111EB17B31E5500940256 /* ViewController.m */; };
 		A7B111F417B3206000940256 /* FullScreenMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B111F317B3206000940256 /* FullScreenMapViewController.m */; };
 		A7B111F717B3213100940256 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B111F517B3210600940256 /* MapKit.framework */; };
+		A7B1120517B3257700940256 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B1120417B3257700940256 /* CoreLocation.framework */; };
+		A7B1120917B328B600940256 /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B1120817B328B600940256 /* MKMapView+ZoomLevel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,9 @@
 		A7B111F217B3206000940256 /* FullScreenMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullScreenMapViewController.h; sourceTree = "<group>"; };
 		A7B111F317B3206000940256 /* FullScreenMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullScreenMapViewController.m; sourceTree = "<group>"; };
 		A7B111F517B3210600940256 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A7B1120417B3257700940256 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A7B1120717B328B600940256 /* MKMapView+ZoomLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MKMapView+ZoomLevel.h"; path = "../MKMapView+ZoomLevel.h"; sourceTree = "<group>"; };
+		A7B1120817B328B600940256 /* MKMapView+ZoomLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MKMapView+ZoomLevel.m"; path = "../MKMapView+ZoomLevel.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7B1120517B3257700940256 /* CoreLocation.framework in Frameworks */,
 				A7B111F717B3213100940256 /* MapKit.framework in Frameworks */,
 				A7B111D017B31E5500940256 /* UIKit.framework in Frameworks */,
 				A7B111D217B31E5500940256 /* Foundation.framework in Frameworks */,
@@ -62,6 +68,7 @@
 		A7B111C017B31E5400940256 = {
 			isa = PBXGroup;
 			children = (
+				A7B1120417B3257700940256 /* CoreLocation.framework */,
 				A7B111D517B31E5500940256 /* MapExperience */,
 				A7B111CE17B31E5500940256 /* Frameworks */,
 				A7B111CC17B31E5500940256 /* Products */,
@@ -92,6 +99,8 @@
 			children = (
 				A7B111DE17B31E5500940256 /* AppDelegate.h */,
 				A7B111DF17B31E5500940256 /* AppDelegate.m */,
+				A7B1120717B328B600940256 /* MKMapView+ZoomLevel.h */,
+				A7B1120817B328B600940256 /* MKMapView+ZoomLevel.m */,
 				A7B111E717B31E5500940256 /* MainStoryboard.storyboard */,
 				A7B111F217B3206000940256 /* FullScreenMapViewController.h */,
 				A7B111F317B3206000940256 /* FullScreenMapViewController.m */,
@@ -186,6 +195,7 @@
 				A7B111E017B31E5500940256 /* AppDelegate.m in Sources */,
 				A7B111EC17B31E5500940256 /* ViewController.m in Sources */,
 				A7B111F417B3206000940256 /* FullScreenMapViewController.m in Sources */,
+				A7B1120917B328B600940256 /* MKMapView+ZoomLevel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +312,7 @@
 				A7B111F117B31E5500940256 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

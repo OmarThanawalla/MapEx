@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface FullScreenMapViewController : UIViewController <MKMapViewDelegate>
+@interface FullScreenMapViewController : UIViewController <MKMapViewDelegate, CLLocationManagerDelegate>
+
+@property(nonatomic,weak) IBOutlet MKMapView *mapView;
 
 @end
