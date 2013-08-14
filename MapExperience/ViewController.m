@@ -18,6 +18,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    // Talk to Yelp Api and get the data points for the businesses
+    
 }
 
 - (void)didReceiveMemoryWarning
