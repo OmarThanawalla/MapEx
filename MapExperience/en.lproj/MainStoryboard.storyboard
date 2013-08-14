@@ -19,18 +19,26 @@
                                     <segue destination="g76-0a-oX4" kind="embed" id="vQH-Jg-ekF"/>
                                 </connections>
                             </containerView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RnF-bk-w9i">
+                                <items>
+                                    <navigationItem id="EOl-8g-Bws"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="IGz-L7-tt0" firstAttribute="top" secondItem="3" secondAttribute="top" constant="44" id="It8-Tk-TvG"/>
+                            <constraint firstItem="RnF-bk-w9i" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="1g8-F1-aoU"/>
+                            <constraint firstItem="RnF-bk-w9i" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="9xl-vV-GMP"/>
+                            <constraint firstItem="RnF-bk-w9i" firstAttribute="bottom" secondItem="IGz-L7-tt0" secondAttribute="top" type="default" id="Ru0-4X-Wlo"/>
                             <constraint firstItem="IGz-L7-tt0" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="cHi-rL-wYG"/>
                             <constraint firstItem="IGz-L7-tt0" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="dH4-lD-vEc"/>
+                            <constraint firstItem="RnF-bk-w9i" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="gPf-Jw-G2F"/>
                             <constraint firstItem="IGz-L7-tt0" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="p8m-8H-YC4"/>
                         </constraints>
                     </view>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="264" y="286"/>
+            <point key="canvasLocation" x="283" y="304"/>
         </scene>
         <!--Full Screen Map View Controller-->
         <scene sceneID="rYv-Z8-5tT">
